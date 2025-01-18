@@ -1,0 +1,21 @@
+{
+  "name": "gas-tracker-bot",
+  "version": "1.0.0",
+  "description": "Ethereum gas price tracking bot with notifications",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": ["ethereum", "gas", "tracker", "bot", "blockchain"],
+  "author": "0xJamesMitchell",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
